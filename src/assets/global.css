@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'BancoDoBrasil Titulos';
+  src: url(./fonts/BancoDoBrasilTitulos-Regular.ttf);
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BancoDoBrasil TitulosBold';
+  src: url(./fonts/BancoDoBrasilTitulos-Bold.ttf);
+  font-display: auto;
+}
+@font-face {
+  font-family: 'BancoDoBrasil TitulosLight';
+  src: url(./fonts/BancoDoBrasilTitulos-Light.ttf);
+  font-display: auto;
+}
+
+@font-face {
+  font-family: 'BancoDoBrasil Textos';
+  src: url(./fonts/BancoDoBrasilTextos-Regular.ttf);
+  font-display: auto;
+}
+@font-face {
+  font-family: 'BancoDoBrasil TextosBold';
+  src: url(./fonts/BancoDoBrasilTextos-Bold.ttf);
+  font-display: auto;
+}
+@font-face {
+  font-family: 'BancoDoBrasil TextosLight';
+  src: url(./fonts/BancoDoBrasilTextos-Light.ttf);
+  font-display: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: var(--branco-private);
+  font-family: 'BancoDoBrasil Textos';
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
